@@ -25,15 +25,13 @@
 
 2. Клонируйте репозиторий
 Откройте командную строку (cmd) и выполните:
-
 git clone https://github.com/Mortem1/airflow-superset-demo.git
 cd airflow-superset-demo
 
 3. Создайте файл .env с секретными ключами
 В папке проекта есть файл-шаблон .env.example. Скопируйте его в .env:
-
+cd "Путь к в которой работаем"
 copy .env.example .env
-
 Откройте .env в Блокноте и заполните значения:
 
 AIRFLOW_UID=50000 оставьте как есть.
